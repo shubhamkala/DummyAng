@@ -1,0 +1,6 @@
+<h1>TestComp -> {{messageFromApp}}</h1>
+<button (click)="invokePassToApp()">Send TO app</button>
+<br>
+<div *ngFor="let empObj of empData;index as i">
+    <h1>{{i+1}} {{empObj.name}} {{empObj.age}} {{empObj.sal}}</h1>
+</div>
